@@ -7,7 +7,7 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     
     <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
 
     <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-32x32.png" sizes="32x32">
@@ -23,12 +23,11 @@
     <script type="text/babel">
 
       ReactDOM.render(
-        <h1>Nnunu</h1>,
-        <h2>For Notes</h2>,
         document.getElementById('root')
       );
-
+      
     </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!--
       Note: this page is a great way to try React but it's not suitable for production.
       It slowly compiles JSX with Babel in the browser and uses a large development build of React.
@@ -42,5 +41,6 @@
       You can also use React without JSX, in which case you can remove Babel:
       https://reactjs.org/docs/react-without-jsx.html
     -->
+    
   </body>
 </html>
