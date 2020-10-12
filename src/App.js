@@ -1,3 +1,6 @@
+// jshint esversion:6
+
+
 import React, { useState, useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
